@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #ff6f61, #f9d423, #24c6dc, #5433ff, #20e2d7);
+            background-size: 400% 400%;
+            animation: gradientBG 12s ease infinite;
+        }
+        @keyframes gradientBG {
+            0% {background-position: 0% 50%;}
+            50% {background-position: 100% 50%;}
+            100% {background-position: 0% 50%;}
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #fff;
+            text-shadow: 2px 2px 12px #0008;
+            margin-bottom: 1em;
+            background: linear-gradient(90deg, #f7971e, #43cea2, #fc5c7d);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        p {
+            color: #fff;
+            font-size: 1.2rem;
+            background: rgba(0,0,0,0.2);
+            border-radius: 10px;
+            padding: 0.5em 1em;
+            margin: 0.5em 0;
+            box-shadow: 0 2px 8px #0003;
+        }
+        a {
+            color: #ffd200;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h1>Welcome to my first webpage</h1>
+    <p>This is a simple paragraph to demonstrate the structure of an HTML document.</p>
+    <p>This is another paragraph.</p>
+    <p>here is a link <a href="https://www.example.com">to an example website</a>.</p>
+    </center>
+</body>
+</html>
